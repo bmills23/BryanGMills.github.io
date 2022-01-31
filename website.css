@@ -1,0 +1,150 @@
+
+body {
+    color: #cb997e;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500; 
+}
+
+h1 {
+    text-align: center;
+}
+
+#profilepic {
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    display: block;
+    text-align: center;
+    margin: auto;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+img {
+    margin: auto;
+    display: flex;
+    border-radius: 15px; 
+    transition: 1s;
+    text-align: center;
+    align-items: center;
+}
+
+.climbing {
+    max-width: 360px;
+    max-height: 480px;
+}
+
+.walking {
+    max-width: 462.4px;
+    max-height: 346.8px;
+}
+
+.grinding {
+    max-width: 225px;
+    max-height: 400px;
+}
+
+.staring {
+    max-width: 346.8px;
+    max-height: 462.4px;
+}
+
+@media (max-width: 476px){
+    .staring, .climbing {
+        max-width: 50%;
+        max-height: 50%;
+    }
+}
+
+@media (max-width: 476px){
+    .walking {
+        max-width: 70%;
+        max-height: 70%;
+    }
+}
+
+@media (max-width: 476px){
+    .grinding {
+        max-width: 50%;
+        max-height: 50%;
+    }
+}
+
+img:hover {
+    box-shadow:  0 0 10px 20px sandybrown;
+    transform: scale(1.06);
+    transition: 0.25s;
+    border-radius: 15px;
+}
+
+
+ul {
+    display: flex;
+    flex-wrap: flex;
+    justify-content: center space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+h1, h2, h3, h4 {
+    color: sandybrown;
+    transition: 0.5s;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1:hover {
+    color: #FFE8D6;
+    background-color: sandybrown;
+    box-shadow: 0 0 10px 10px;
+    border-radius: 10px;
+}
+
+a:hover {
+    color: #FFE8D6;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+@media (min-width:480px){
+
+}
+
+
+img:hover {
+    color: sandybrown;
+    background-color: #FFE8D6;
+    transition: 0.33s;
+    box-shadow: 0 0 5px 5px;
+}
+
+.nav-link {
+    color: sandybrown;
+    text-align: center;
+    padding: 2px;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #FFE8D6;
+    border: #FFE8D6;
+    background-color: sandybrown;
+    transition: 0.15s; 
+    border-radius: 10px;
+
+}
+
+#image_con {
+    padding: 20px;
+}
+
+.slides_div {
+    width: 80%;
+    height: 600px;
+}
+
