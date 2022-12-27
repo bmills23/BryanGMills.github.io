@@ -5,6 +5,6 @@ This is my website that desperately needs to be updated.
 
 https://htmlpreview.github.io/?https://github.com/bmills23/BryanGMills.github.io/blob/master/index.html
 
-##OR 
+## OR 
 
 http://www.bryangmills.com/
